@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Placeholder Web Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 20px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <main style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+        <div style="background-color: #fff; border-radius: 8px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); padding: 20px; max-width: 400px; text-align: center;">
+            <h2>Hello! Welcome to my webpage.</h2>
+            <p>My name is Nattasasi, this webpage will be dedicated to forever spinning a picture of my cat.</p>
+            <div style="margin-top: 20px;">
+                <img src="cat.jpg" alt="Spinning Cat" style="max-width: 100%; height: auto; border-radius: 50%; animation: spin 5s linear infinite;">
+            </div>
+        </div>
+    </main>
+    <style>
+        @keyframes spin {
+            from {
+                transform: rotate(0deg);
+            }
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</body>
+</html>
