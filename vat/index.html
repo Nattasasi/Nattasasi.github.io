@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>VAT Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1>VAT Calculator</h1>
+    Base Price
+    <input type="number" id="basePrice" value=""><br>
+
+    <button onclick="calculateVAT()">Calculate VAT</button>
+    <br>
+    <span id="result"></span>
+    <br>
+
+    Vat Price
+    <input type="number" id="vatPrice" value=""><br>
+    <input type="number" id="vat" value=""><br>
+    <button onclick="calculateBasePrice()">Calculate Base Price</button>
+    <br>
+    <span id="result2"></span>
+    <br>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<script src="vat.js"></script>
+
+</html>
