@@ -14,13 +14,27 @@ body {
 
 header { 
 
-    background-color: #4CAF50; 
+    background-color: rgb(255, 204, 153); 
 
     padding: 20px; 
 
     color: white; 
 
 } 
+
+footer { 
+
+    background-color: rgb(255, 204, 153); 
+
+    color: white; 
+
+    width: 100%; 
+
+    position:  relative;
+
+    bottom: 0; 
+
+}
 
  
 

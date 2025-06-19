@@ -1,94 +1,90 @@
-<!DOCTYPE html> 
+<!DOCTYPE html>
 
-<html lang="en"> 
+<html lang="en">
 
-<head> 
+<head>
 
-    <meta charset="UTF-8"> 
+    <meta charset="UTF-8">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Pet Store</title> 
+    <title>Pet Store</title>
 
-    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="styles.css">
 
-</head> 
+</head>
 
-<body> 
+<body>
 
-    <header> 
+    <header>
 
-        <h1>Welcome to Our Pet Store</h1> 
+        <h1>Welcome to Our Pet Store</h1>
 
-        <nav> 
+        <nav>
 
-            <a href="#">Home</a> 
+            <a href="#">Home</a>
 
-            <a href="pets.html">Pets</a> 
+            <a href="pets.html">Pets</a>
 
-            <a href="#contact">Contact</a> 
+            <a href="#contact">Contact</a>
 
-        </nav> 
+        </nav>
 
-    </header> 
+    </header>
 
- 
 
-    <main> 
 
-        <section class="featured"> 
+    <main>
 
-            <h2>Featured Pets</h2> 
+        <section class="featured">
 
-            <div class="pet-list"> 
+            <h2>All Pets</h2>
 
-                <div class="pet"> 
+            <div class="pet-list">
 
-                    <img src="img/dog.jpg" alt="Cute Dog"> 
+                <div class="pet">
 
-                    <p>Charlie - Golden Retriever</p> 
+                    <img src="img/dog.jpg" alt="Cute Dog">
 
-                    <button onclick="adoptPet()">Adopt Now</button> 
+                    <p>Charlie - Golden Retriever</p>
 
-                </div> 
+                    <button onclick="adoptPet()">Adopt Now</button>
 
-                <div class="pet"> 
+                </div>
 
-                    <img src="img/cat.webp" alt="Cute Cat"> 
+                <div class="pet">
 
-                    <p>Milo - British Shorthair</p> 
+                    <img src="img/cat.webp" alt="Cute Cat">
 
-                    <button onclick="adoptPet()">Adopt Now</button> 
+                    <p>Milo - British Shorthair</p>
 
-                </div> 
+                    <button onclick="adoptPet()">Adopt Now</button>
 
-            </div> 
+                </div>
 
-        </section> 
-
-    </main> 
-
- 
-
-    <footer style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
-        <div id="contact" style="text-align: center;">
-            <p>Contact us at: <strong>info@petstore.com</strong></p> 
-            <h3>Our Address</h3>
-        </div>
-        <section id="address" style="display: flex; align-items: center; justify-content: center; gap: 24px;">
-            <div>
-            <p>Assumption University Suvarnabhumi Campus</p>
-            <p>88 หมู่ที่ 8 ถนน บางนา-ตราด,<br>
-            Bang Sao Thong, Bang Sao Thong District, Samut Prakan 10540</p>
             </div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3877.7575783055618!2d100.8353415763876!3d13.611612686765824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d430e775155f9%3A0xf01923824353260!2sAssumption%20University%20Suvarnabhumi%20Campus!5e0!3m2!1sen!2sth!4v1749961394437!5m2!1sen!2sth" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
         </section>
-    </footer> 
 
- 
+    </main>
 
-    <script src="script.js"></script> 
 
-</body> 
 
-</html> 
+    <footer id="contact">
+        <div id="contact" style="display: flex; gap: 5px; align-items: center; justify-content: center; width: 50%; margin: 0 auto; min-height: 300px;">
+            <div id="address" style="flex: 1; margin: 5px auto;">
+            <h2>Our Pet Shop</h2>
+            <p>88 หมู่ที่ 8 ถนน บางนา-ตราด Bang Sao Thong, Bang Sao Thong District, Samut Prakan 10540</p>
+            <p>Email: <strong>info@petstore.com</strong></p>
+            </div>
+            <div id="map" style="flex: 2; margin: 5px 0;">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3877.757578305562!2d100.83534157410966!3d13.611612686765792!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x311d430e775155f9%3A0xf01923824353260!2sAssumption%20University%20Suvarnabhumi%20Campus!5e0!3m2!1sen!2sth!4v1749542866348!5m2!1sen!2sth" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+
+</body>
+
+</html>
